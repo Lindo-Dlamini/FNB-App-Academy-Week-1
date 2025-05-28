@@ -1,0 +1,71 @@
+h1 {
+    color: crimson;
+    text-align: center;
+    background-color: rgb(112, 108, 108);
+    padding: 10px;
+
+}
+
+h2 {
+    font-family: 'Lucida Sans';
+    font-weight: 700;
+    font-style: italic;
+}
+
+h3 {
+    font-family: Helvetica;
+}
+p{
+    color: white;
+    font-family: fantasy;
+
+
+}
+
+ol{
+    list-style-image: url('images/pointer.png');
+    color: chocolate;
+}
+
+#menu-bar a{
+    font-family: Helvetica, sans-serif;
+    text-decoration: none;
+    background-color: orange;
+    padding: 5px;
+}
+#menu-bar a:hover{
+    background-color: orangered;
+    color: #ffffff;
+    scroll-padding: 10px;
+    transform: translateY(-5px) scale(1.0);
+}
+
+html{
+    background-image: url('images/Ocean12.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-blend-mode: color-burn;
+}
+
+img{
+  clip-path: inset(5px 5px 5px 5px round 30px);
+}
+
+img:hover {
+  transform: translateY(-10px) scale(1.05);
+  
+}
+
+#links {
+    font-family: Helvetica, sans-serif;
+    text-decoration: none;
+    padding: 5px;
+}
+
+#links :hover{
+background-color: orangered;
+    color: #ffffff;
+    scroll-padding: 10px;
+    transform: translateY(-5px) scale(1.0);
+}
